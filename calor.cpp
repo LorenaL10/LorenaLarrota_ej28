@@ -39,13 +39,15 @@ while (t<100){
     for (int i=1; i<200; i++){
         array_old[i]=array_new[i];
     }
+}
     
     ofstream outfile;
-    outfile.open("calor.dat");
+    outfile.open("calor.txt");
     for(int i=0;i<200;i++){
       outfile << array_old[i] << i << endl;
     }
     outfile.close();
     return 0;
-    }
+    
 }
+    
