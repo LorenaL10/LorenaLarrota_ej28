@@ -17,8 +17,8 @@ int main(){
     float T=0.0;
     float t=0.0;
 
-  for(int i=0; i<200; i++){
-    for(int t=0; t<200; t++){
+  for(int i=0; i<201; i++){
+    for(int t=0; t<201; t++){
         
         if((i=0)&&(i=200)){
           array_old[i]=300;
